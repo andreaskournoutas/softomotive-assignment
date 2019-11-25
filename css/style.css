@@ -1,5 +1,71 @@
+:root {
+    --body: #f2f5f7;
+    --header: #ebf0f2;
+    --shadow: #cccccc;
+    --transition: box-shadow 0.2s;
+}
+.wrapper {
+    padding-left: 76px; /* To be changed to JS */
+}
+header {
+    background-color: var(--header);
+}
+body {
+    background-color: var(--body);
+}
+.h2 {
+    font-size: 1.5rem;
+}
+.h3 {
+    font-size: 1.15rem;
+}
+.my-stores__items {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.section-title {
+    background-image: url("../images/titlebg.jpg");
+    background-position: center;
+    background-repeat: repeat-x;
+}
+.section-title__h-tag {
+    background-color: var(--body);
+}
+.section-title__more {
+    background-color: var(--body);
+}
+.card {
+    box-shadow: 2px 2px 2px var(--shadow);
+    transition: var(--transition);
+}
+.card:hover {
+    box-shadow: 7px 7px 7px var(--shadow);
+    transition: var(--transition);
+}
+.card img, .my-stores img {
+    object-fit: cover;
+}
+.carousel {
+    background-color: #e6ebee;
+    background-color: -moz-linear-gradient(top,  #e6ebee 0%, #d8dee5 100%);
+    background-color: -webkit-linear-gradient(top,  #e6ebee 0%,#d8dee5 100%);
+    background-color: linear-gradient(to bottom,  #e6ebee 0%,#d8dee5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ebee', endColorstr='#d8dee5',GradientType=0 );
+    background-image: url("../images/footerbg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+}
 @media (min-width: 576px) {
-
+    .h2 {
+        font-size: 2rem;
+    }
+    .h3 {
+        font-size: 1.75rem;
+    }
 }
 @media (min-width: 768px) {
 
