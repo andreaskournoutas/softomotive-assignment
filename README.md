@@ -10,4 +10,4 @@
 
 ## Images
 
-A base image of 500 x 500 size is used on all cases and is manipulated accordingly.
+A base placeholder image of 500 x 500 size is used on all cases and is manipulated accordingly.
